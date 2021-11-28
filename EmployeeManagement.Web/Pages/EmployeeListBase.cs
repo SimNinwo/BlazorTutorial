@@ -27,7 +27,7 @@ namespace EmployeeManagement.Web.Pages
                 Email = "John@simtolwa.com",
                 DateOfBirth = new(1980, 10, 5),
                 Gender = Gender.Male,
-                Department = new() { DepartmentId = 1, DepartmentName = "IT" },
+                DepartmentId = 1,
                 PhotoPath= "images/john.png"
             };
 
@@ -39,7 +39,7 @@ namespace EmployeeManagement.Web.Pages
                 Email = "Sam@simtolwa.com",
                 DateOfBirth = new(1981,12,22),
                 Gender = Gender.Male,
-                Department = new() { DepartmentId = 2, DepartmentName = "HR"},
+                DepartmentId = 2,
                 PhotoPath = "images/sam.jpg"
             };
 
@@ -51,7 +51,7 @@ namespace EmployeeManagement.Web.Pages
                 Email = "Mary@simtolwa.com",
                 Gender = Gender.Female,
                 DateOfBirth = new(1979,11,11),
-                Department = new() { DepartmentId = 1, DepartmentName= "IT"},
+                DepartmentId = 1,
                 PhotoPath = "images/mary.png"
             };
 
@@ -63,7 +63,7 @@ namespace EmployeeManagement.Web.Pages
                 Email = "Sara@simtolwa.com",
                 DateOfBirth = new(1982,9,23),
                 Gender = Gender.Female,
-                Department = new() { DepartmentId = 3, DepartmentName = "Payroll"},
+                DepartmentId = 3,
                 PhotoPath = "images/sara.png"
             };
 
